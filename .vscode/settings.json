@@ -60,5 +60,6 @@
     "*.embeddedhtml": "html",
     "*.yaml": "dart",
     "iostream": "cpp"
-  }
+  },
+  "C_Cpp.errorSquiggles": "disabled"
 }
