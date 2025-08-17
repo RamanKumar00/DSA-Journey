@@ -8,17 +8,16 @@ int main(){
     cout<<"enter the sum you want to search(target): ";
     cin>>target;
     for(int i = 0; i < n; i++){
-
-        for(int j = i; j < n; j++){
             int sum = 0;
-            for(int k = i; k <= j; k++ ){
-                sum = sum + arr[k];
-            }
+        for(int j = i; j < n; j++){
+            
+           sum = sum + arr[j];
              if(sum == target){
         len = max(len,j-i+1);
     }
         }
     }
+
    
     cout<<"Length of the subarray is:"<< len;
     return 0;
